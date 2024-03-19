@@ -1,0 +1,7 @@
+rules:
+  - id: detect-os-system
+    pattern: |
+      fn_call(name="system", arguments={ 0: _ })
+    message: "Potential security vulnerability: Use of os.system detected"
+    severity: "high"
+    languages: ["python"]
