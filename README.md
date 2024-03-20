@@ -31,11 +31,11 @@ Semgrep is an open-source static analysis tool with various applications includi
    - Push the Python file, ruleset, and buildspec files to GitHub.
      ![Semgrep Scan](images/git_code.png)
    - Create a project on AWS CodeBuild.
-     ![Semgrep Scan](images/python_1.png)
-     ![Semgrep Scan](images/python_2.png)
-     ![Semgrep Scan](images/python_3.png)
-     ![Semgrep Scan](images/python_4.png)
-     ![Semgrep Scan](images/python_5.png)
+     ![Semgrep Scan](images/project_1.png)
+     ![Semgrep Scan](images/project_2.png)
+     ![Semgrep Scan](images/project_3.png)
+     ![Semgrep Scan](images/project_4.png)
+     ![Semgrep Scan](images/project_5.png)
    - Start the build.
      ![Semgrep Scan](images/start_build.png)
    - Build success
