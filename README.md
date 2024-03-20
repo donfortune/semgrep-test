@@ -21,7 +21,7 @@ Semgrep is an open-source static analysis tool with various applications includi
 1. **Local Test**:
    - Install Semgrep locally using `pip install semgrep`.
    - Write a simple Python program.
-     ![Semgrep Scan](images/Screenshot 2024-03-19 at 11.25.08 PM.png)
+     ![Semgrep Scan](images/python_file.png)
    - Set up rules for Semgrep to follow.
    - Run the Semgrep command: `semgrep --config ruleset.yaml main.py`.
 
