@@ -14,16 +14,14 @@ Semgrep is an open-source static analysis tool with various applications includi
 - **Community and Ecosystem**: Semgrep has an active community and ecosystem supporting its development.
 - **Pattern Matching**: Semgrep facilitates pattern matching for effective code analysis.
 
-## Task Overview
 
-### Duration
-Maximum duration for completing the task: 3 days
 
 ### Steps to Accomplish the Task
 
 1. **Local Test**:
    - Install Semgrep locally using `pip install semgrep`.
    - Write a simple Python program.
+     ![Semgrep Scan](images/Screenshot 2024-03-19 at 11.25.08 PM.png)
    - Set up rules for Semgrep to follow.
    - Run the Semgrep command: `semgrep --config ruleset.yaml main.py`.
 
