@@ -1,6 +1,6 @@
 # Semgrep AWS CodeBuild Workflow
 
-This repository contains documentation and configurations for establishing a Semgrep scanning workflow within AWS CodeBuild. The main objective is to set up Semgrep scanning for AWS CodeBuild, utilizing the provided configuration samples as a reference.
+This repository contains documentation and configurations for establishing a Semgrep scanning workflow within AWS CodeBuild. The main objective is to set up Semgrep scanning for AWS CodeBuild.
 
 ## Introduction
 
