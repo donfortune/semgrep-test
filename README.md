@@ -23,9 +23,23 @@ Semgrep is an open-source static analysis tool with various applications includi
    - Write a simple Python program.
      ![Semgrep Scan](images/python_file.png)
    - Set up rules for Semgrep to follow.
+     ![Semgrep Scan](images/ruleset.png)
    - Run the Semgrep command: `semgrep --config ruleset.yaml main.py`.
+     ![Semgrep Scan](images/local_run.png)
 
 2. **Integration with AWS CodeBuild Workflow**:
    - Push the Python file, ruleset, and buildspec files to GitHub.
+     ![Semgrep Scan](images/git_code.png)
    - Create a project on AWS CodeBuild.
-   - Configure the build settings.
+     ![Semgrep Scan](images/python_1.png)
+     ![Semgrep Scan](images/python_2.png)
+     ![Semgrep Scan](images/python_3.png)
+     ![Semgrep Scan](images/python_4.png)
+     ![Semgrep Scan](images/python_5.png)
+   - Start the build.
+     ![Semgrep Scan](images/start_build.png)
+   - Build success
+     ![Semgrep Scan](images/build_success.png)
+   - logs
+     ![Semgrep Scan](images/logs.png)
+     
